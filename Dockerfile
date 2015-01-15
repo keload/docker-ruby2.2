@@ -15,3 +15,6 @@ RUN apt-get -y update
 
 # install ruby2.2
 RUN apt-get -y install ruby2.2
+
+# install bundler
+RUN gem install bundler
