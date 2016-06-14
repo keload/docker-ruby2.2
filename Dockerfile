@@ -14,3 +14,19 @@ RUN apt-get -y update
 
 # install ruby2.2
 RUN apt-get -y install ruby2.2 ruby2.2-dev bundler javascript-common
+
+RUN gem update --system
+
+RUN gem install compass
+
+RUN apt-get install git -y
+
+RUN apt-get install nodejs -y
+
+RUN ln -s /usr/bin/nodejs /usr/bin/node
+
+RUN apt-get install npm -y
+
+RUN npm install -g grunt grunt-cli
+
+RUN npm install -g bower
