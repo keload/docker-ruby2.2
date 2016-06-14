@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Jason Feinstein <jason.feinstein@gmail.com>
+MAINTAINER Clément BERARD <keload@gmail.com>
 ENV LAST_CHANGED 2014-01-14T13:06EST
 
 # make sure the package repository is up to date
